@@ -51,6 +51,8 @@ fetch(url).then((resp) => resp.json()).then(function(data){
         append(w,vertical);
         append(vertical,name);
         append(vertical,email);
+        append(postContainer,card);
+
     })
 })
 .catch(function(error){
