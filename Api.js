@@ -26,14 +26,15 @@ fetch(url).then((resp) => resp.json()).then(function(data){
         button=createNode('button');
 
         //design and classing
-        card.class="card";
-        card_top.class="card-top";
-        w.class="w center";
-        feed_img.class="circle c feed-img";
-        vertical.class="vertical"
-        name.class="poster";
-        email.class="light-text";
-        post_img.class="feed-img-post ww100";
+        card_top.className="card-top";
+        card.className="card";
+        w.className="w center";
+        feed_img.className="circle c feed-img";
+        vertical.className="vertical";
+        name.className="poster";
+        email.className="light-text";
+        post_img.className="feed-img-post ww100";
+        button.className="card-top-btn";
         button.innerHTML=`...`;
 
         //feeding api images
